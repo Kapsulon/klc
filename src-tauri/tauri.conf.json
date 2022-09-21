@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "klc",
-    "version": "0.1.0"
+    "version": "0.2.1"
   },
   "tauri": {
     "allowlist": {
@@ -71,10 +71,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": true,
+        "height": 800,
+        "resizable": false,
         "title": "Kapsulon's Logo Creator",
-        "width": 800
+        "width": 600
       }
     ]
   }
