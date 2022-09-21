@@ -64,8 +64,8 @@
     $: loaded ? hex = getPathColor(selected_path) : null;
 </script>
 
-<img alt="Logo" src="src/base_tribar.svg" />
-<object title="new_logo" id="new_logo" type="image/svg+xml" data="src/base_tribar.svg"></object>
+<img alt="Logo" src="/base_tribar.svg" />
+<object title="new_logo" id="new_logo" type="image/svg+xml" data="/base_tribar.svg"></object>
 <form on:submit|preventDefault>
     <select bind:value={selected_path}>
         <option value={0} default={true} >Color 1</option>
